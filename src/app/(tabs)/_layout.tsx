@@ -16,8 +16,7 @@ function TabsNavigation() {
             headerShown: false,
             tabBarStyle: {
                 position: 'absolute',
-                borderTopLeftRadius: 20,
-                borderTopRightRadius: 20,
+                backgroundColor: '#000',
                 borderTopWidth: 0,
                 paddingBottom: 5,
                 paddingTop: 5,
@@ -53,7 +52,7 @@ function TabsNavigation() {
                 name="(songs)"
                 options={{
                     title: 'Songs',
-                    tabBarIcon: ({color}) => <Ionicons name="musical-note" size={20} color={color}/> 
+                    tabBarIcon: ({color}) => <Ionicons name="musical-notes" size={22} color={color}/> 
                 }}
             />
             <Tabs.Screen 
